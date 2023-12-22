@@ -22,7 +22,7 @@ export default function Accordion({menuData}){
                                 <div className="row">
                                     {
                                         menuDrinkItem.map((item) => (
-                                            <div className="col-4">
+                                            <div key={item.id} className="col-4">
                                             <div className="card h100">
                                                 <div className="card-body">
                                                     <h5 className="card-title">{item.title}</h5>
@@ -50,7 +50,7 @@ export default function Accordion({menuData}){
                                 <div className="row">
                                     {
                                         menuAppetizerItem.map((item) => (
-                                            <div className="col-4">
+                                            <div key={item.id} className="col-4">
                                             <div className="card h100">
                                                 <div className="card-body">
                                                     <h5 className="card-title">{item.title}</h5>
@@ -78,7 +78,7 @@ export default function Accordion({menuData}){
                                 <div className="row">
                                     {
                                         menuBreakfastItem.map((item) => (
-                                            <div className="col-4">
+                                            <div key={item.id} className="col-4">
                                             <div className="card h-100">
                                                 <div className="card-body">
                                                     <h5 className="card-title">{item.title}</h5>

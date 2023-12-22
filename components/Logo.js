@@ -10,8 +10,7 @@ export default function Logo(){
                         <Image src="/img/brunch-icon.png" height="70" width="70" alt="brunch logo" priority />
                     </div>
                 </div>
-            </div>
-            
+            </div> 
         </div>
     )
 }
